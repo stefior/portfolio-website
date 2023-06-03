@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stefior's Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+  <link rel="stylesheet" href="main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <div class="hello-message">
+      <h1 class="hand">&#128075;&nbsp;</h1>
+      <h1>Hi! I'm Stef, a<br>freelance web<br>developer.</h1>
+    </div>
+    <img src="./assets/stef-profile.png" alt="Stylized art of Stef">
+  </section>
+
+  <section id="about">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        I have a strong foundation in Python, HTML, CSS, and JavaScript. What started as a quest for
+        a rewarding and intellectually stimulating career quickly evolved into a passion for solving complex problems
+        and creating efficient, user-friendly solutions.
+      </p>
+      <p>
+        While I am adept at creating websites from scratch, I'm also comfortable utilizing tools like Photoshop to
+        enhance the user experience and create visually appealing interfaces. Moreover, I've been harnessing the power
+        of AI to increase my efficiency and effectiveness in programming&#8212;a testament to my adaptability and
+        eagerness to stay at the forefront of tech trends.
+      </p>
+      <p>
+        Over the past several years, I've also honed my skills through numerous programming challenges on platforms like
+        HackerRank and Google Foobar. This has significantly bolstered my problem-solving abilities and critical
+        thinking skills, enabling me to confidently tackle any project.
+      </p>
+    </div>
+    <div class="tools">
+      <img src="./assets/html5-logo.svg" alt="HTML5 logo" title="HTML5">
+      <img src="./assets/css3-logo.svg" alt="CSS3 logo" title="CSS3">
+      <img src="./assets/javascript-logo.svg" alt="JavaScript logo" title="JavaScript">
+      <img src="./assets/nodejs-logo.svg" alt="Node.js logo" title="Node.js">
+      <img src="./assets/webpack-logo.svg" alt="Webpack logo" title="Webpack">
+      <img src="./assets/firebase-logo.svg" alt="Firebase logo" title="Firebase">
+      <img src="./assets/git-logo.svg" alt="Git logo" title="Git">
+      <img src="./assets/openai-logo.svg" alt="OpenAI logo" title="ChatGPT">
+      <img src="./assets/photoshop-logo.svg" alt="Photoshop logo" title="Photoshop">
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <div class="project-text">
+        <h3>Etch A Sketch</h3>
+        <p>A dynamic web application that emulates the classic Etch a Sketch game, showcasing my abilities in JavaScript
+          and interactive design.</p>
+        <a href="https://stefior.github.io/etch-a-sketch/" target="_blank" class="button">
+          <div class="triangle-wrapper"></div>
+          <span>See live</span>
+        </a>
+      </div>
+      <img src="./assets/etch-a-sketch-project-screenshot.png" alt="etch-a-sketch project screenshot">
+    </div>
+    <div class="project">
+      <div class="project-text">
+        <h3>Calculator</h3>
+        <p>A fully functional calculator built from scratch, demonstrating my understanding of JavaScript and logic
+          implementation in a practical tool.</p>
+        <a href="https://stefior.github.io/calculator/" target="_blank" class="button">
+          <div class="triangle-wrapper"></div>
+          <span>See live</span>
+        </a>
+      </div>
+      <img src="./assets/calculator-project-screenshot.png" alt="calculator project screenshot">
+    </div>
+    <div class="project">
+      <div class="project-text">
+        <h3>Character Restaurant</h3>
+        <p>A mock-up restaurant website that displays my proficiency in HTML, CSS, and responsive web design, providing
+          an engaging user experience.</p>
+        <a href="https://stefior.github.io/restaurant-page/" target="_blank" class="button">
+          <div class="triangle-wrapper"></div>
+          <span>See live</span>
+        </a>
+      </div>
+      <img src="./assets/restaurant-project-screenshot.png" alt="restaurant project screenshot">
+    </div>
+    <svg id="triangle-template" class="triangle" width="10" height="10" style="display: none">
+      <polygon points="5,0 10,10 0,10" fill="#efefef" />
+    </svg>
+  </section>
+
+  <section id="contact">
+    <h2>Find me on:</h2>
+    <div>
+      <a href="https://www.upwork.com/freelancers/stephenfiorenza">
+        <svg id="Layer_1" data-name="Layer 1" width="80px" height="80px" fill="#efefef"
+          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 87.48 87.48">
+          <defs></defs>
+          <title>Upwork logo</title>
+          <path class="cls-1"
+            d="M68.43,43.39c-4.94,0-6.53,4.76-6.88,7.58v.18l-.7,2.64a11.9,11.9,0,0,0,7.4,3,7.12,7.12,0,0,0,6.88-6.88A6.66,6.66,0,0,0,68.43,43.39Z"
+            transform="translate(-7.23 -6.53)" />
+          <path class="cls-1"
+            d="M51,6.53A43.74,43.74,0,1,0,94.71,50.26,43.73,43.73,0,0,0,51,6.53ZM68.43,63.67A17.43,17.43,0,0,1,59.26,61l-3,14.11H49.38l4.24-19.4a52.78,52.78,0,0,1-4.77-7.93v3a12.88,12.88,0,1,1-25.75,0V33.16h6.71V50.79a6.35,6.35,0,1,0,12.69,0V33.16h6.71a65.45,65.45,0,0,0,6.7,14.46c1.76-6.7,6.7-10.76,12.87-10.76A13.33,13.33,0,0,1,82,50.09C81.66,57.67,75.66,63.67,68.43,63.67Z"
+            transform="translate(-7.23 -6.53)" />
+        </svg>
+      </a>
+      <a href="https://github.com/stefior">
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="#EFEFEF" viewBox="0 0 24 24">
+          <title>GitHub logo</title>
+          <path
+            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <small>
+      &#169; Stephen Fiorenza
+      <script>document.write(new Date().getFullYear())</script>
+    </small>
+  </footer>
+</body>
+
+</html>
