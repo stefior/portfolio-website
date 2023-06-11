@@ -1,5 +1,5 @@
 :root {
-  font-family: "Quicksand", Arial, Helvetica, sans-serif;
+  font-family: "Quicksand", Helvetica, sans-serif;
   --grey: #1b2832;
   --white: #efefef;
   --yellow: #f2af29;
@@ -56,7 +56,7 @@ body > nav > a {
 }
 
 body > nav > a:hover {
-  font-size: 102%;
+  text-decoration: underline; 
 }
 
 /* home */
@@ -163,8 +163,8 @@ body > nav > a:hover {
 
 #about .about-text h2 {
   font-weight: bold;
-  font-size: 4rem;
-  margin-bottom: 10px;
+  font-size: 3rem;
+  margin-bottom: 6px;
   color: var(--grey);
 }
 
@@ -176,6 +176,7 @@ body > nav > a:hover {
 #about .about-text p {
   padding-top: 16px;
   font-size: 1.1rem;
+  line-height: 1.4rem;
 }
 
 #about .tools {
@@ -199,11 +200,19 @@ body > nav > a:hover {
   #about .tools img {
     height: 65px;
   }
+
+  #about .about-text h2 {
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 455px) {
   #about {
     flex-direction: column;
+  }
+
+  #about .about-text h2 {
+    font-size: 2.2rem;
   }
 
   #about .about-text {
@@ -219,12 +228,14 @@ body > nav > a:hover {
 /* projects */
 
 #projects {
+  align-self: center;
   padding: 30px;
+  max-width: 1000px;
 }
 
 #projects h2 {
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin-top: 20px;
   color: var(--white);
 }
@@ -261,8 +272,9 @@ body > nav > a:hover {
   font-size: 1.2rem;
   font-weight: 500;
   max-width: 310px;
-  margin-top: 15px;
-  margin-bottom: 20px;
+  margin-top: 18px;
+  margin-bottom: 25px;
+  line-height: 1.5rem;
 }
 
 .project > div.project-text a.button {
@@ -277,7 +289,7 @@ body > nav > a:hover {
   position: relative;
   display: block;
   text-decoration-color: purple;
-  transition-duration: .8s;
+  transition-duration: .2s;
 }
 
 .project:nth-of-type(1) > div.project-text a.button:focus,
@@ -336,13 +348,13 @@ body > nav > a:hover {
 }
 
 .fade-in {
-  animation: fade-in 1s ease-out forwards;
+  animation: fade-in .6s ease-out forwards;
 }
 
 @keyframes fade-in {
   0% {
     opacity: 0;
-    transform: translateX(-20px);
+    transform: translateX(-14px);
   }
   100% {
     opacity: 1;
