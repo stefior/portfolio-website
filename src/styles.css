@@ -1,5 +1,5 @@
 :root {
-  font-family: "Quicksand", Helvetica, sans-serif;
+  font-family: Quicksand__subset, Quicksand, Helvetica, sans-serif;
   --grey: #1b2832;
   --white: #efefef;
   --yellow: #f2af29;
@@ -56,7 +56,7 @@ body > nav > a {
 }
 
 body > nav > a:hover {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 /* home */
@@ -289,7 +289,7 @@ body > nav > a:hover {
   position: relative;
   display: block;
   text-decoration-color: purple;
-  transition-duration: .2s;
+  transition-duration: 0.2s;
 }
 
 .project:nth-of-type(1) > div.project-text a.button:focus,
@@ -348,7 +348,7 @@ body > nav > a:hover {
 }
 
 .fade-in {
-  animation: fade-in .6s ease-out forwards;
+  animation: fade-in 0.6s ease-out forwards;
 }
 
 @keyframes fade-in {

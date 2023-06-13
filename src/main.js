@@ -55,7 +55,7 @@ let intervalId;
 const buttons = document.querySelectorAll(".button");
 
 buttons.forEach((button) => {
-  const triangleWrapper = button.querySelector('.triangle-wrapper');
+  const triangleWrapper = button.querySelector(".triangle-wrapper");
 
   button.addEventListener("mouseover", () => {
     if (intervalId) return;
@@ -78,7 +78,7 @@ buttons.forEach((button) => {
           {
             x: x,
             y: 8,
-            opacity: .5,
+            opacity: 0.5,
           },
           {
             y: -(triangleWrapper.offsetHeight + 5),
