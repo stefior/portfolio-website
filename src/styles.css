@@ -75,6 +75,13 @@ body > nav > a:hover {
   margin: 0 auto;
 }
 
+#home .hand img {
+  height: 1em;
+  top: 6px;
+  position: relative;
+  margin-right: 20px;
+}
+
 #home > .hello-message > h1 {
   font-size: 5vw;
   font-weight: lighter;
@@ -105,16 +112,11 @@ body > nav > a:hover {
   }
 }
 
-.hand-wave {
-  display: inline-block;
-  transition: transform 0.2s ease-in-out;
-}
-
 .wave {
   animation: wave 1.5s linear 1;
 }
 
-#home img {
+#home > img {
   max-height: 100%;
 }
 
