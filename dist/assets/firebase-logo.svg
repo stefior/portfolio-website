@@ -1,1 +1,19 @@
-<svg id="Layer_1" data-name="Layer 1" width="90px" height="90px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.62 67.18"><defs><style>.cls-1{fill:#EFEFEF;}</style></defs><title>Firebase_Logo_Knockout</title><g id="Page-1"><g id="styleguide"><g id="Group-16"><g id="Group-9"><g id="Group-27"><g id="logo_lockup_firebase_horizontal_knockout" data-name="logo lockup firebase horizontal knockout"><path id="icon" class="cls-1" d="M2.15,44.28,8.77,1.7a1.52,1.52,0,0,1,2.85-.48l7.11,13.36Zm47,10.34L42.86,15.43a1.5,1.5,0,0,0-1-1.2,1.53,1.53,0,0,0-1.54.37L.55,54.62,22.54,67A4.56,4.56,0,0,0,27,67ZM31.29,20.42,26.2,10.67a1.52,1.52,0,0,0-2.69,0L1.15,50.75Z" transform="translate(-0.55 -0.41)"/></g></g></g></g></g></g></svg>
+<svg id="Layer_1" data-name="Layer 1" width="90px" height="90px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.62 67.18">
+  <defs>
+    <style>.cls-1{fill:#EFEFEF;}</style>
+  </defs>
+  <title>Firebase_Logo_Knockout</title>
+  <g id="Page-1">
+    <g id="styleguide">
+      <g id="Group-16">
+        <g id="Group-9">
+          <g id="Group-27">
+            <g id="logo_lockup_firebase_horizontal_knockout" data-name="logo lockup firebase horizontal knockout">
+              <path id="icon" class="cls-1" d="M2.15,44.28,8.77,1.7a1.52,1.52,0,0,1,2.85-.48l7.11,13.36Zm47,10.34L42.86,15.43a1.5,1.5,0,0,0-1-1.2,1.53,1.53,0,0,0-1.54.37L.55,54.62,22.54,67A4.56,4.56,0,0,0,27,67ZM31.29,20.42,26.2,10.67a1.52,1.52,0,0,0-2.69,0L1.15,50.75Z" transform="translate(-0.55 -0.41)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
