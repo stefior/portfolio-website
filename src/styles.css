@@ -75,20 +75,20 @@ body > nav > a:hover {
 #home > .hello-message {
   display: flex;
   margin: 0 auto;
-  line-height: 1em;
 }
 
 #home .hand img {
   height: 1em;
-  top: 6px;
   position: relative;
   margin-right: 20px;
+  top: 2px;
 }
 
 #home > .hello-message > h1 {
   font-size: 5vw;
   font-weight: lighter;
   color: var(--white);
+  line-height: 1.1em;
 }
 
 @keyframes wave {
