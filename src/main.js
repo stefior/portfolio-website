@@ -115,7 +115,7 @@ console.log(
 %c                           :       !!: @!@  !@! @@!  @@@
 %c                                   :   !!:  !!! @!@!!@!
 %c                                        : :. :  !!: :!!
-%c                                                 :   : :
+%c                                                 :   : :%c .com
  `,
   "font-family: monospace; color: cyan;",
   "font-family: monospace; color: magenta;",
@@ -128,4 +128,5 @@ console.log(
   "font-family: monospace; color: yellow;",
   "font-family: monospace; color: cyan;",
   "font-family: monospace; color: magenta;",
+  "font-family: monospace; color: yellow"
 );
