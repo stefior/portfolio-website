@@ -5,7 +5,7 @@ const port = 3000;
 app.use((req, res, next) => {
   res.setHeader(
     "Content-Security-Policy",
-    "default-src 'self'; font-src 'self' https://fonts.gstatic.com https://fonts.googleapis.com; style-src 'self' https://fonts.googleapis.com; script-src-elem 'self' https://www.googletagmanager.com data:; connect-src 'self' https://firebase.googleapis.com https://fonts.googleapis.com https://fonts.gstatic.com https://www.googletagmanager.com data:"
+    "default-src 'self'; font-src 'self' https://fonts.gstatic.com https://fonts.googleapis.com; style-src 'self' https://fonts.googleapis.com; script-src-elem 'self' https://www.googletagmanager.com data:; connect-src 'self' https://firebase.googleapis.com https://fonts.googleapis.com https://fonts.gstatic.com https://www.googletagmanager.com http://www.google-analytics.com https://firebaseinstallations.googleapis.com data:"
   );
   return next();
 });
