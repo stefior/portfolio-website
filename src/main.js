@@ -102,3 +102,30 @@ buttons.forEach((button) => {
 
 const copyright = document.querySelector("#copyright");
 copyright.textContent += " " + new Date().getFullYear();
+
+console.log(
+  String.raw`
+%c  @@@@@@
+%c !@@     @@@@@@@
+%c  !@@!!    @!!   @@@@@@@@
+%c     !:!   @!!   @@!      @@@@@@@@
+%c ::.: :    !!:   @!!!:!   @@!      @@@
+%c            :    !!:      @!!!:!   @@!  @@@@@@
+%c                 : :: ::  !!:      !!@ @@!  @@@ @@@@@@@
+%c                           :       !!: @!@  !@! @@!  @@@
+%c                                   :   !!:  !!! @!@!!@!
+%c                                        : :. :  !!: :!!
+%c                                                 :   : :
+ `,
+  "font-family: monospace; color: cyan;",
+  "font-family: monospace; color: magenta;",
+  "font-family: monospace; color: yellow;",
+  "font-family: monospace; color: cyan;",
+  "font-family: monospace; color: magenta;",
+  "font-family: monospace; color: yellow;",
+  "font-family: monospace; color: cyan;",
+  "font-family: monospace; color: magenta;",
+  "font-family: monospace; color: yellow;",
+  "font-family: monospace; color: cyan;",
+  "font-family: monospace; color: magenta;",
+);
