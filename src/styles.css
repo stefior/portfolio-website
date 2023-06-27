@@ -48,6 +48,7 @@ body > nav {
   align-items: center;
   height: 40px;
   background-color: var(--white);
+  width: "100%";
 }
 
 body > nav > a {
@@ -310,6 +311,10 @@ body > nav > a:hover {
 .project:nth-of-type(3) > div.project-text a.button:focus,
 .project:nth-of-type(3) > div.project-text a.button:hover {
   text-decoration: underline var(--turquoise);
+}
+
+.triangle-template {
+  display: none;
 }
 
 .triangle {

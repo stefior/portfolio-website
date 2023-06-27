@@ -1,7 +1,10 @@
 {
   "dependencies": {
+    "express": "^4.18.2",
     "firebase": "^9.21.0",
+    "gsap": "^3.12.1",
     "jquery": "^3.7.0",
+    "node": "^20.3.1",
     "subset": "^1.1.0"
   },
   "devDependencies": {
@@ -21,10 +24,11 @@
   "main": "scripts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "node src/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Stefior",
   "license": "ISC",
   "description": ""
 }

@@ -1,12 +1,13 @@
 "use strict";
 
+import { gsap } from "gsap";
 import $ from "jquery";
 
-/*
-TODO:
-- make navbar look more interesting
-- make the about me section less wordy
-*/
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("/serviceworker.js")
+    .then((registration) => console.log("scope is: ", registration.scope));
+}
 
 // animate hand emoji waving
 $(function () {
@@ -98,3 +99,6 @@ buttons.forEach((button) => {
     intervalId = null;
   });
 });
+
+const copyright = document.querySelector("#copyright");
+copyright.textContent += " " + new Date().getFullYear();
