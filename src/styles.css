@@ -42,23 +42,30 @@ body {
 
 /* nav bar */
 
-body > nav {
+body > #nav-container {
+  background-color: var(--white);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 40px;
-  background-color: var(--white);
-  width: "100%";
+  width: 100%;
+  max-width: 600px;
 }
 
-body > nav > a {
+body nav > a {
   color: var(--grey);
   text-decoration: none;
   font-weight: bold;
   transition-duration: 0.25s;
 }
 
-body > nav > a:hover {
+body nav > a:hover {
   text-decoration: underline;
 }
 
@@ -130,7 +137,7 @@ body > nav > a:hover {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 670px) {
   #home {
     flex-direction: column;
     height: auto;
@@ -154,15 +161,15 @@ body > nav > a:hover {
 
 #about {
   margin-top: 25px;
-  margin-bottom: 25px;
-  padding: 30px;
+  padding: 30px 30px 0;
   color: var(--grey);
   display: flex;
+  align-items: flex-start;
 }
 
 #about .about-text {
   width: 70%;
-  padding: 35px;
+  padding: 35px 35px 45px;
   font-weight: 500;
   background-color: var(--white);
 }
@@ -193,13 +200,13 @@ body > nav > a:hover {
   justify-content: space-evenly;
   align-items: center;
   align-content: flex-start;
-  gap: 20px;
+  gap: 12px;
   background: var(--grey);
-  padding: 35px 0px 35px 35px;
+  padding-left: 30px;
 }
 
 #about .tools img {
-  height: 80px;
+  height: 65px;
 }
 
 @media screen and (max-width: 919px) {
@@ -212,22 +219,23 @@ body > nav > a:hover {
   }
 }
 
-@media screen and (max-width: 455px) {
+@media screen and (max-width: 661px) {
   #about {
     flex-direction: column;
-  }
-
-  #about .about-text h2 {
-    font-size: 2.2rem;
+    padding: 10px;
   }
 
   #about .about-text {
     width: 100%;
   }
 
+  #about .about-text h2 {
+    font-size: 2.2rem;
+  }
+
   #about .tools {
     width: 100%;
-    padding-right: 35px;
+    padding: 30px 0 0;
   }
 }
 
@@ -237,6 +245,14 @@ body > nav > a:hover {
   align-self: center;
   padding: 30px;
   max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 435px) {
+  #projects {padding: 15px;}
 }
 
 #projects h2 {
@@ -253,6 +269,7 @@ body > nav > a:hover {
   display: flex;
   justify-content: space-between;
   opacity: 0;
+  width: 100%;
 }
 
 .project:nth-of-type(even) {
@@ -313,7 +330,7 @@ body > nav > a:hover {
   text-decoration: underline var(--turquoise);
 }
 
-.triangle-template {
+#triangle-template {
   display: none;
 }
 
@@ -419,12 +436,12 @@ picture {
   font-size: 2rem;
   font-weight: bold;
   color: var(--white);
+  padding: 0 25px;
 }
 
-#contact > div {
+#contact > .contact-links {
   display: flex;
   justify-content: space-between;
-  width: 180px;
   height: 80px;
   margin-left: 20px;
 }
